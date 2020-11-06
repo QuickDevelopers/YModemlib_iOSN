@@ -1,12 +1,12 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "YModemlib_iOSN"
-  spec.version      = "1.0.3"
-  spec.summary      = "Bluetooth help quick YModemlib_iOSN"
+  spec.version      = "1.0.5"
+  spec.summary      = "Bluetooth help quick update ota YModemlib_iOSN"
 
  
   spec.description  = <<-DESC
-  This is quickly Bluetooth help connect, it is help quick more device connect. so you use very smart!
+  Bluetooth help quick update ota, it is help quick more device connect. so you use very smart!
                    DESC
 
   spec.homepage     = "https://github.com/QuickDevelopers/YModemlib_iOSN"
