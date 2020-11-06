@@ -14,6 +14,8 @@
 		BC39DDCF25553541000ABF0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC39DDCE25553541000ABF0C /* Assets.xcassets */; };
 		BC39DDD225553541000ABF0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC39DDD025553541000ABF0C /* LaunchScreen.storyboard */; };
 		BC39DDD525553541000ABF0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC39DDD425553541000ABF0C /* main.m */; };
+		BC39DDDF255535B3000ABF0C /* YModem.c in Sources */ = {isa = PBXBuildFile; fileRef = BC39DDDE255535B3000ABF0C /* YModem.c */; };
+		BC39DDE425553657000ABF0C /* YModemUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BC39DDE325553657000ABF0C /* YModemUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,10 @@
 		BC39DDD125553541000ABF0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC39DDD325553541000ABF0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC39DDD425553541000ABF0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC39DDDD255535B3000ABF0C /* YModem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YModem.h; sourceTree = "<group>"; };
+		BC39DDDE255535B3000ABF0C /* YModem.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = YModem.c; sourceTree = "<group>"; };
+		BC39DDE225553657000ABF0C /* YModemUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YModemUtil.h; sourceTree = "<group>"; };
+		BC39DDE325553657000ABF0C /* YModemUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YModemUtil.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,28 @@
 		BC39DDC12555353E000ABF0C /* YModemlib_iOSN */ = {
 			isa = PBXGroup;
 			children = (
+				BC39DDE7255536C1000ABF0C /* Main */,
+				BC39DDDC25553585000ABF0C /* YModem */,
+				BC39DDD325553541000ABF0C /* Info.plist */,
+				BC39DDD425553541000ABF0C /* main.m */,
+			);
+			path = YModemlib_iOSN;
+			sourceTree = "<group>";
+		};
+		BC39DDDC25553585000ABF0C /* YModem */ = {
+			isa = PBXGroup;
+			children = (
+				BC39DDDD255535B3000ABF0C /* YModem.h */,
+				BC39DDDE255535B3000ABF0C /* YModem.c */,
+				BC39DDE225553657000ABF0C /* YModemUtil.h */,
+				BC39DDE325553657000ABF0C /* YModemUtil.m */,
+			);
+			path = YModem;
+			sourceTree = "<group>";
+		};
+		BC39DDE7255536C1000ABF0C /* Main */ = {
+			isa = PBXGroup;
+			children = (
 				BC39DDC22555353E000ABF0C /* AppDelegate.h */,
 				BC39DDC32555353E000ABF0C /* AppDelegate.m */,
 				BC39DDC52555353E000ABF0C /* SceneDelegate.h */,
@@ -70,10 +98,8 @@
 				BC39DDCB2555353E000ABF0C /* Main.storyboard */,
 				BC39DDCE25553541000ABF0C /* Assets.xcassets */,
 				BC39DDD025553541000ABF0C /* LaunchScreen.storyboard */,
-				BC39DDD325553541000ABF0C /* Info.plist */,
-				BC39DDD425553541000ABF0C /* main.m */,
 			);
-			path = YModemlib_iOSN;
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,10 +171,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC39DDE425553657000ABF0C /* YModemUtil.m in Sources */,
 				BC39DDCA2555353E000ABF0C /* ViewController.m in Sources */,
 				BC39DDC42555353E000ABF0C /* AppDelegate.m in Sources */,
 				BC39DDD525553541000ABF0C /* main.m in Sources */,
 				BC39DDC72555353E000ABF0C /* SceneDelegate.m in Sources */,
+				BC39DDDF255535B3000ABF0C /* YModem.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +322,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4B5F6ELE34;
 				INFOPLIST_FILE = YModemlib_iOSN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +341,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4B5F6ELE34;
 				INFOPLIST_FILE = YModemlib_iOSN/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
