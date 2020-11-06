@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "YModemlib_iOSN"
-  spec.version      = "1.0.7"
+  spec.version      = "1.0.1"
   spec.summary      = "Bluetooth help quick YModemlib_iOSN"
 
  
