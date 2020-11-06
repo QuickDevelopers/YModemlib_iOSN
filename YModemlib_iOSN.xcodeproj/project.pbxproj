@@ -70,7 +70,6 @@
 				BC39DDE7255536C1000ABF0C /* Main */,
 				BC39DDDC25553585000ABF0C /* YModem */,
 				BC39DDD325553541000ABF0C /* Info.plist */,
-				BC39DDD425553541000ABF0C /* main.m */,
 			);
 			path = YModemlib_iOSN;
 			sourceTree = "<group>";
@@ -89,6 +88,7 @@
 		BC39DDE7255536C1000ABF0C /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				BC39DDD425553541000ABF0C /* main.m */,
 				BC39DDC22555353E000ABF0C /* AppDelegate.h */,
 				BC39DDC32555353E000ABF0C /* AppDelegate.m */,
 				BC39DDC52555353E000ABF0C /* SceneDelegate.h */,
