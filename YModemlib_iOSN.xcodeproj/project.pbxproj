@@ -67,6 +67,7 @@
 		BC39DDC12555353E000ABF0C /* YModemlib_iOSN */ = {
 			isa = PBXGroup;
 			children = (
+				BC39DDD325553541000ABF0C /* Info.plist */,
 				BC39DDE7255536C1000ABF0C /* Main */,
 				BC39DDDC25553585000ABF0C /* YModem */,
 			);
@@ -87,7 +88,6 @@
 		BC39DDE7255536C1000ABF0C /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				BC39DDD325553541000ABF0C /* Info.plist */,
 				BC39DDD425553541000ABF0C /* main.m */,
 				BC39DDC22555353E000ABF0C /* AppDelegate.h */,
 				BC39DDC32555353E000ABF0C /* AppDelegate.m */,

@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "YModemlib_iOSN"
-  spec.version      = "1.0.2"
+  spec.version      = "1.0.3"
   spec.summary      = "Bluetooth help quick YModemlib_iOSN"
 
  
@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
 
   spec.source    = { :git => "https://github.com/QuickDevelopers/YModemlib_iOSN.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "YModemlib_iOSN","YModemlib_iOSN/YModem/*.{h,m}"
+  spec.source_files  = "YModemlib_iOSN","YModemlib_iOSN/YModem/*.{h,m,c}"
                  
   spec.frameworks = "Foundation","UIKit"
 
